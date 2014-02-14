@@ -1,0 +1,23 @@
+2014/02/13 18:54:06 [/ec/html/products/detail.php] [execute end 52fc9636ecad5#10]
+SQL: PREPARE mdb2_statement_mysql_10714799cc8cac3e461d086b251132ca33d49e920e FROM 'SELECT             T1.product_id,             T1.stock,             T1.stock_unlimited,             T1.sale_limit,             T1.price01,             T1.price02,             T1.point_rate,             T1.product_code,             T1.product_class_id,             T1.del_flg,             T1.product_type_id,             T1.down_filename,             T1.down_realfilename,             T3.name AS classcategory_name1,             T3.rank AS rank1,             T4.name AS class_name1,             T4.class_id AS class_id1,             T1.classcategory_id1,             T1.classcategory_id2,             dtb_classcategory2.name AS classcategory_name2,             dtb_classcategory2.rank AS rank2,             dtb_class2.name AS class_name2,             dtb_class2.class_id AS class_id2 FROM             dtb_products_class T1             LEFT JOIN dtb_classcategory T3                 ON T1.classcategory_id1 = T3.classcategory_id             LEFT JOIN dtb_class T4                 ON T3.class_id = T4.class_id             LEFT JOIN dtb_classcategory dtb_classcategory2                 ON T1.classcategory_id2 = dtb_classcategory2.classcategory_id             LEFT JOIN dtb_class dtb_class2                 ON dtb_classcategory2.class_id = dtb_class2.class_id WHERE product_id IN (?) AND T1.del_flg = 0  ORDER BY T3.rank DESC, dtb_classcategory2.rank DESC '
+PlaceHolder: array (
+  0 => '1',
+)
+execution time: 2.04 sec
+ from ::1
+2014/02/13 18:54:12 [/ec/html/products/detail.php] [execute end 52fc9636ecad5#26]
+SQL: PREPARE mdb2_statement_mysql_26cc806b04f6ec30f0957895d606f2cc4df7d77f2d FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:41:"/ec/html/products/detail.php?product_id=1";transactionid|s:40:"5f2654ed1b83d761465eb0e594402f47abb7afda";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52fc6f0619703PVshwryP";last_login|s:19:"2014-02-13 16:06:46";total|a:9:{s:18:"search_startyear_m";s:4:"2014";s:19:"search_startmonth_m";s:2:"02";s:16:"search_startyear";s:4:"2014";s:17:"search_startmonth";s:2:"02";s:15:"search_startday";s:2:"13";s:14:"search_endyear";s:4:"2014";s:15:"search_endmonth";s:2:"02";s:13:"search_endday";s:2:"13";s:11:"search_form";s:0:"";}cart_referer_url|s:57:"http://localhost/ec/html/products/detail.php?product_id=1";',
+  1 => '3jbbackn30jelqofhks7h82o34',
+)
+execution time: 2.27 sec
+ from ::1
+2014/02/13 18:54:12 [/ec/html/products/detail.php] [execute end 52fc963745b14#26]
+SQL: PREPARE mdb2_statement_mysql_26cd1fd980908828b80bad852476fcbe8ae3846585 FROM 'UPDATE dtb_session SET sess_data= ?, update_date= CURRENT_TIMESTAMP WHERE sess_id = ?'
+PlaceHolder: array (
+  0 => 'cart|a:0:{}prev_url|s:41:"/ec/html/products/detail.php?product_id=1";transactionid|s:40:"5f2654ed1b83d761465eb0e594402f47abb7afda";cert|s:8:"7WDhcBTF";member_id|s:1:"2";login_id|s:5:"admin";authority|s:1:"0";login_name|s:9:"管理者";uniqid|s:21:"52fc6f0619703PVshwryP";last_login|s:19:"2014-02-13 16:06:46";total|a:9:{s:18:"search_startyear_m";s:4:"2014";s:19:"search_startmonth_m";s:2:"02";s:16:"search_startyear";s:4:"2014";s:17:"search_startmonth";s:2:"02";s:15:"search_startday";s:2:"13";s:14:"search_endyear";s:4:"2014";s:15:"search_endmonth";s:2:"02";s:13:"search_endday";s:2:"13";s:11:"search_form";s:0:"";}cart_referer_url|s:57:"http://localhost/ec/html/products/detail.php?product_id=1";',
+  1 => '3jbbackn30jelqofhks7h82o34',
+)
+execution time: 2.67 sec
+ from ::1

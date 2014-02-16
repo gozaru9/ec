@@ -32,11 +32,10 @@ img.picture {
 #container {
     margin: 0 auto;
     padding: 0 0 30px;
-    width: 980px;
+    width: 88%;
     background: #fff;
     text-align: left;
 }
-
 
 /* ==============================================
  カラム指定

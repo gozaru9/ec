@@ -858,3 +858,67 @@ C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094): trigger_error
 customer_id = 
 2014/02/14 12:19:06 [/ec/html/index.php] Fatal error(E_ERROR): Allowed memory size of 134217728 bytes exhausted (tried to allocate 2211840 bytes) on [C:\xampp\htdocs\ec\data\Smarty\templates_c\default\%%D7^D7A^D7AA3677%%category_tree_fork.tpl.php(7)] from ::1
 customer_id = 
+2014/02/16 13:38:16 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(255)] from ::1
+2014/02/16 13:38:16 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(259)] from ::1
+2014/02/16 13:38:16 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(263)] from ::1
+2014/02/16 13:38:16 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(267)] from ::1
+2014/02/16 21:38:18 [/ec/html/index.php] Fatal error(E_USER_ERROR): Smarty error: the $compile_dir 'C:\xampp\htdocs\ec\html/../data/Smarty/templates_c/default/' does not exist, or is not a directory. on [C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094)] from ::1
+customer_id = 
+C:\xampp\htdocs\ec\html\index.php(28): LC_Page_Index_Ex->process
+C:\xampp\htdocs\ec\data\class_extends\page_extends\LC_Page_Index_Ex.php(54): LC_Page_Index->process
+C:\xampp\htdocs\ec\data\class\pages\LC_Page_Index.php(54): LC_Page->sendResponse
+C:\xampp\htdocs\ec\data\class\pages\LC_Page.php(152): SC_Display->prepare
+C:\xampp\htdocs\ec\data\class\SC_Display.php(80): SC_View->getResponse
+C:\xampp\htdocs\ec\data\class\SC_View.php(101): Smarty->fetch
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1262): Smarty->_compile_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1432): smarty_core_write_compiled_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\internals\core.write_compiled_resource.php(20): Smarty->trigger_error
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094): trigger_error
+2014/02/16 13:38:23 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(255)] from ::1
+2014/02/16 13:38:23 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(259)] from ::1
+2014/02/16 13:38:23 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(263)] from ::1
+2014/02/16 13:38:23 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(267)] from ::1
+2014/02/16 21:38:23 [/ec/html/index.php] Fatal error(E_USER_ERROR): Smarty error: the $compile_dir 'C:\xampp\htdocs\ec\html/../data/Smarty/templates_c/default/' does not exist, or is not a directory. on [C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094)] from ::1
+customer_id = 
+C:\xampp\htdocs\ec\html\index.php(28): LC_Page_Index_Ex->process
+C:\xampp\htdocs\ec\data\class_extends\page_extends\LC_Page_Index_Ex.php(54): LC_Page_Index->process
+C:\xampp\htdocs\ec\data\class\pages\LC_Page_Index.php(54): LC_Page->sendResponse
+C:\xampp\htdocs\ec\data\class\pages\LC_Page.php(152): SC_Display->prepare
+C:\xampp\htdocs\ec\data\class\SC_Display.php(80): SC_View->getResponse
+C:\xampp\htdocs\ec\data\class\SC_View.php(101): Smarty->fetch
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1262): Smarty->_compile_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1432): smarty_core_write_compiled_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\internals\core.write_compiled_resource.php(20): Smarty->trigger_error
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094): trigger_error
+2014/02/16 13:38:54 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(255)] from ::1
+2014/02/16 13:38:54 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(259)] from ::1
+2014/02/16 13:38:54 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(263)] from ::1
+2014/02/16 13:38:54 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(267)] from ::1
+2014/02/16 21:38:54 [/ec/html/index.php] Fatal error(E_USER_ERROR): Smarty error: the $compile_dir 'C:\xampp\htdocs\ec\html/../data/Smarty/templates_c/default/' does not exist, or is not a directory. on [C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094)] from ::1
+customer_id = 
+C:\xampp\htdocs\ec\html\index.php(28): LC_Page_Index_Ex->process
+C:\xampp\htdocs\ec\data\class_extends\page_extends\LC_Page_Index_Ex.php(54): LC_Page_Index->process
+C:\xampp\htdocs\ec\data\class\pages\LC_Page_Index.php(54): LC_Page->sendResponse
+C:\xampp\htdocs\ec\data\class\pages\LC_Page.php(152): SC_Display->prepare
+C:\xampp\htdocs\ec\data\class\SC_Display.php(80): SC_View->getResponse
+C:\xampp\htdocs\ec\data\class\SC_View.php(101): Smarty->fetch
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1262): Smarty->_compile_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1432): smarty_core_write_compiled_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\internals\core.write_compiled_resource.php(20): Smarty->trigger_error
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094): trigger_error
+2014/02/16 13:42:29 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(255)] from ::1
+2014/02/16 13:42:29 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(259)] from ::1
+2014/02/16 13:42:29 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(263)] from ::1
+2014/02/16 13:42:29 [/ec/html/index.php] Warning(E_WARNING): mkdir(): No such file or directory on [C:\xampp\htdocs\ec\data\class\SC_Initial.php(267)] from ::1
+2014/02/16 21:42:29 [/ec/html/index.php] Fatal error(E_USER_ERROR): Smarty error: the $compile_dir 'C:\xampp\htdocs\ec\html/../data/Smarty/templates_c/default/' does not exist, or is not a directory. on [C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094)] from ::1
+customer_id = 
+C:\xampp\htdocs\ec\html\index.php(28): LC_Page_Index_Ex->process
+C:\xampp\htdocs\ec\data\class_extends\page_extends\LC_Page_Index_Ex.php(54): LC_Page_Index->process
+C:\xampp\htdocs\ec\data\class\pages\LC_Page_Index.php(54): LC_Page->sendResponse
+C:\xampp\htdocs\ec\data\class\pages\LC_Page.php(152): SC_Display->prepare
+C:\xampp\htdocs\ec\data\class\SC_Display.php(80): SC_View->getResponse
+C:\xampp\htdocs\ec\data\class\SC_View.php(101): Smarty->fetch
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1262): Smarty->_compile_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1432): smarty_core_write_compiled_resource
+C:\xampp\htdocs\ec\data\module\Smarty\libs\internals\core.write_compiled_resource.php(20): Smarty->trigger_error
+C:\xampp\htdocs\ec\data\module\Smarty\libs\Smarty.class.php(1094): trigger_error
